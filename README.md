@@ -174,7 +174,7 @@ If you are doing supervised learning, you must split your data into the data you
 
 This process includes deleting innecesary data, imputation, scaling and normalizing, one-hot encoding... In general, any treatment that makes the data better for the model and avoids innecesary information.
 
-> [!WARN]
+> [!WARNING]
 > You must be careful with data imputation. For example, if you are assigning the mean of a column to null values, you must compute the mean only with train values. Otherwise, you might have **data leakage**.
 
 ### 5. Feature engineering
